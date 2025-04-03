@@ -8,7 +8,7 @@ import { ethers } from "ethers";
 import tracking from "../Context/Tracking.json";
 
 // Update with your deployed contract address from Ganache
-const ContractAddress = "0x37c7140FF92CA7407899bb8386F17Aa702882911";
+const ContractAddress = "0x45dfE349D886afc169231D246165A4E3F7Af9808";
 const ContractABI = tracking.abi;
 
 // Fetching Smart Contract

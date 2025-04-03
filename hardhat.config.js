@@ -8,10 +8,10 @@ module.exports = {
   solidity: "0.8.19",
   networks: {
     ganache: {
-      url: "http://127.0.0.1:7545", // Default Ganache URL (adjust if different)
-      // Instead of using a mnemonic, use a private key from your Ganache instance
+      url: "http://127.0.0.1:7545", 
+      chainId: 1337,
       accounts: [
-        "68752df3a213b9d4570e370801b8ccddbe2d5a6eb02c161e278e13570c73275c"
+        "28bd005ba11af12e31d90f718ffa9e100e922c9e0ecef7e524868cdfb985d9ea"
       ]
     },
   },
